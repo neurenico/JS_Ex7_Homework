@@ -83,6 +83,7 @@ class Pokemon {
 
     createModal() {
         this.site.append(this.modalWrapper);
+        this.modalWrapper.setAttribute("style", "display: block");
 
         this.modal = document.createElement('div');
         this.modal.className = 'modal';
